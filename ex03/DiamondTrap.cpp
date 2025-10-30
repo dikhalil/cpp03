@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 14:08:59 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 16:27:33 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:36:37 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,6 @@ void DiamondTrap::attack(const std::string& target)
 void DiamondTrap::whoAmI()
 {
     std::cout << "DiamondTrap: " << _name 
-              << " ClapTrap: "    << ClapTrap::getName()
+              << "\nClapTrap: "  << ClapTrap::getName()
               << std::endl;
 }

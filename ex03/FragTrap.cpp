@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 20:51:04 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 16:01:38 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/10/30 16:40:01 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 FragTrap::FragTrap(void)
 {
-    _name = "";
     _hitPoint = 100;
     _energyPoint = 100;
     _attackDamage = 30;
