@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 14:08:59 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 17:18:05 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/10/31 19:24:29 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,9 @@ DiamondTrap::DiamondTrap(void)
     _attackDamage = 30;
     std::cout << "DiamondTrap created!" << std::endl;
 }
-DiamondTrap::DiamondTrap(std::string name) : ClapTrap(name + "_clap_name")
+DiamondTrap::DiamondTrap(std::string name)
 {
+    ClapTrap::_name = name + "_clap_name";
     _name = name;
     _hitPoint = 100;
     _energyPoint = 50;

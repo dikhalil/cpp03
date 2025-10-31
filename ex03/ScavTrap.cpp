@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 18:52:34 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 16:41:20 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/10/31 19:22:10 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 ScavTrap::ScavTrap(void)
 {
+    _name = "";
     _hitPoint = 100;
     _energyPoint = 50;
     _attackDamage = 20;

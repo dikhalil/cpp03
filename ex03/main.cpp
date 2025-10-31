@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 18:20:41 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 15:50:55 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/10/31 19:15:03 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,7 @@ int main(void)
               << std::endl;
     robot1.attack(robot2.getName());
     robot1.whoAmI();
+    robot1.highFivesGuys();
+    robot1.guardGate();
     return (0);
 }
