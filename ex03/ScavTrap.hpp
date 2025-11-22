@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 18:52:45 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 14:21:00 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/11/23 00:01:13 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,9 @@
 
 class ScavTrap : virtual public ClapTrap
 {
-    public:
+    protected:
         ScavTrap(void);
+    public:
         ScavTrap(std::string name);
         ScavTrap(const ScavTrap &other);
         ScavTrap &operator=(const ScavTrap &other);

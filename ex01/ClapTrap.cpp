@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 17:33:42 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/30 15:34:13 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/11/22 23:47:21 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,7 @@ ClapTrap::~ClapTrap(void)
 {
     std::cout << "ClapTrap " << _name << " destroyed!" << std::endl;
 }
-void ClapTrap::setName(std::string name)
-{
-    _name = name;
-}
+
 void ClapTrap::setHitPoint(unsigned int hitPoint)
 {
     _hitPoint = hitPoint;

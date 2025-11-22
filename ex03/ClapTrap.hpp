@@ -6,7 +6,7 @@
 /*   By: dikhalil <dikhalil@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 17:24:43 by dikhalil          #+#    #+#             */
-/*   Updated: 2025/10/28 20:39:37 by dikhalil         ###   ########.fr       */
+/*   Updated: 2025/11/22 23:53:08 by dikhalil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ class ClapTrap
         unsigned int _hitPoint;
         unsigned int _energyPoint;
         unsigned int _attackDamage;
-    public:
         ClapTrap(void);
+    public:
         ClapTrap(std::string name);
         ClapTrap(const ClapTrap &other);
         ClapTrap &operator=(const ClapTrap &other);
